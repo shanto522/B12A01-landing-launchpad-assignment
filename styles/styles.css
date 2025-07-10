@@ -88,3 +88,72 @@ section div button{
     font-weight: bold;
     color: white;
 }
+.user-2{
+    height: 45px;
+    width: 856px;
+    font-size: 28px;
+    font-weight: bold;
+   margin: 50px 142px 0 142px;
+   
+}
+.user{
+    height: 306px;
+    width: 1140px;
+    border-radius: 24px;
+    background-color: #cdcdd3;
+    margin: 116px auto;
+}
+.user-1 h1{
+    height: 97px;
+    width: 162px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    
+}
+.user-1{
+    display: flex;
+    gap: 158px;
+    margin: 40px 0 50px 142px;
+}
+
+
+ .stats-box {
+      background-color: #eaeaff;
+      padding: 40px 20px;
+      border-radius: 16px;
+      max-width: 1140px;
+      height: 236px;
+      margin: 80px auto;
+      text-align: center;
+    }
+
+    .stats-box h2 {
+      font-size: 38px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      color: #1a1a1a;
+      font-weight: bold;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    /* .stat-item {
+      margin: 0px;
+    } */
+
+    .stat-item h3 {
+      font-size: 80px;
+      color: #4a47ff;
+      margin: 0;
+    }
+
+    .stat-item p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 8px;
+    }
