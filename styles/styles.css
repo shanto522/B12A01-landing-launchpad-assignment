@@ -231,3 +231,55 @@ section div button{
       font-weight: 600;
       color: #333;
 }
+
+
+    .focus-wrapper {
+      
+      display: flex;
+      justify-content: center;
+      padding: 0 20px;
+      background-color: white;
+       max-width: 1140px;
+      margin: 0 auto;
+      border-radius: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+       height: 696px;
+       margin: 400px auto;
+    }
+
+    .focus-container {
+      text-align: center;
+      padding: 60px 20px 40px;  
+    }
+    .focus-container h1 {
+      font-size: 50px;
+      font-weight: bold;
+      color: #111;
+      margin-bottom: 12px;
+    }
+
+    .focus-container p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 24px;
+      height: 22px;
+    }
+
+    .focus-container .btn {
+      background-color: #4f46e5;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 22px;
+      display: inline-block;
+      margin-bottom: 30px;
+      height: 38px;
+      width: 195px;
+    }
+
+    .focus-container img {
+      max-width: 100%;
+      border-radius: 28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    } 
