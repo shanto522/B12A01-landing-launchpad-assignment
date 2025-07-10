@@ -1,7 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+
 nav{
     background-image: url(../Assets/Hero-bg.png);
     max-width: 1440px;
@@ -117,8 +114,7 @@ section div button{
     margin: 40px 0 50px 142px;
 }
 
-
- .stats-box {
+.stats-box {
       background-color: #eaeaff;
       padding: 40px 20px;
       border-radius: 16px;
@@ -126,34 +122,112 @@ section div button{
       height: 236px;
       margin: 80px auto;
       text-align: center;
-    }
+}
 
-    .stats-box h2 {
+.stats-box h2 {
       font-size: 38px;
       font-weight: 600;
       margin-bottom: 30px;
       color: #1a1a1a;
       font-weight: bold;
-    }
+}
 
-    .stats {
+.stats {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-    }
+}
 
-    /* .stat-item {
-      margin: 0px;
-    } */
-
-    .stat-item h3 {
+.stat-item h3 {
       font-size: 80px;
       color: #4a47ff;
       margin: 0;
-    }
+}
 
-    .stat-item p {
+.stat-item p {
       font-size: 20px;
       color: #555;
       margin-top: 8px;
-    }
+}
+
+
+.review-section {
+      max-width: 1140px;
+      height: 49px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 20px;
+      
+}
+
+.review-section h2 {
+      font-size: 42px;
+      font-weight: 600;
+      margin-bottom: 50px;
+      color: #1a1a1a;
+      font-weight: bold;
+}
+
+.review-cards {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+}
+
+.card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 20px;
+      flex: 1;
+      min-width: 280px;
+      max-width: 1140px;
+      text-align: left;
+}
+
+.stars img {
+      width: 18px;
+      height: 18px;
+      margin-right: 2px;
+}
+
+.title {
+      font-size: 22px;
+      font-weight: 600;
+      margin: 12px 0;
+      height: 29px;
+      width: 221px;
+      font-weight: bold;
+}
+
+.text {
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 20px;
+      
+}
+
+.reviewer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+ }
+
+.reviewer img {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+}
+
+.reviewer-info {
+      font-size: 16px;
+      color: #666;
+      font-weight: bold;
+}
+
+.reviewer-info span {
+      display: block;
+      font-weight: 600;
+      color: #333;
+}
