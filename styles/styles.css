@@ -1,3 +1,12 @@
+body{
+  background-color: #F5F7FE;
+}
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 nav{
     background-image: url(../Assets/Hero-bg.png);
@@ -17,6 +26,7 @@ nav{
     font-size: 34px;
     margin: 50px 0 0 170px;
     color: #4E47FF;
+    font-weight: bold;
 }
 .nav-bar button{
     height: 48px;
@@ -39,6 +49,9 @@ nav{
     color: #252432;
     font-size: 65px;
     margin: 128px 267px 0 285px;
+     font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 .banner button{
     height: 48px;
@@ -68,12 +81,18 @@ section div h2{
     font-size: 42px;
     font-weight: bold;
     color: #252432;
+     font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 section div p{
     height: 60px;
     width: 470px;
     font-size: 24px;
     color: inherit;
+     font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 section div button{
     height: 48px;
@@ -130,6 +149,9 @@ section div button{
       margin-bottom: 30px;
       color: #1a1a1a;
       font-weight: bold;
+       font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .stats {
@@ -166,6 +188,9 @@ section div button{
       margin-bottom: 50px;
       color: #1a1a1a;
       font-weight: bold;
+       font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .review-cards {
@@ -247,13 +272,16 @@ section div button{
 
     .focus-container {
       text-align: center;
-      padding: 60px 20px 40px;  
+      padding: 60px 20px 70px;  
     }
     .focus-container h1 {
       font-size: 50px;
       font-weight: bold;
       color: #111;
       margin-bottom: 12px;
+       font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
     }
 
     .focus-container p {
@@ -278,7 +306,7 @@ section div button{
 
     .focus-container img {
       max-width: 100%;
-      border-radius: 28px;
+      border-radius: 48px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     } 
 
@@ -301,6 +329,9 @@ section div button{
   font-weight: bold;
   color: #000;
   line-height: 1.2;
+   font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .right {
@@ -330,6 +361,7 @@ form textarea {
   outline: none;
   resize: none;
   height:50px ;
+  font-weight: 500;
 }
 
 form textarea {
@@ -376,6 +408,9 @@ footer {
       height: 121px;
       width: 291px;
       margin: 0 auto;
+     font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
     }
 
     .footer-text {
