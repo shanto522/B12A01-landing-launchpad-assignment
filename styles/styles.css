@@ -2,6 +2,12 @@ body{
   background-color: #F5F7FE;
 }
 
+button:hover{
+  background-color: #45a049;
+  transform: scale(1.05);
+  transition: box-shadow 0.3s ease;
+   box-shadow: 0 8px 16px rgba(52, 152, 219, 0.6);
+}
 .inter-normal{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -37,6 +43,7 @@ nav{
     border-radius: 10px;
     margin: 49px 150px 0 0;
     border: none;
+    cursor: pointer;
 }
 .banner{ 
     text-align: center;  
@@ -62,6 +69,7 @@ nav{
    margin: 37px 633px 0 650px;
     color: white;
     border: none;
+    cursor: pointer;
 }
 section{
     max-width: 1140px;
@@ -103,6 +111,7 @@ section div button{
     font-size: 16px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 .user-2{
     height: 45px;
@@ -164,6 +173,9 @@ section div button{
       font-size: 80px;
       color: #4a47ff;
       margin: 0;
+       font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .stat-item p {
@@ -291,17 +303,15 @@ section div button{
       height: 22px;
     }
 
-    .focus-container .btn {
+    .focus-container button{
       background-color: #4f46e5;
       color: #fff;
-      text-decoration: none;
-      padding: 12px 24px;
+      padding: 25px 24px;
       border-radius: 8px;
-      font-size: 20px;
-      display: inline-block;
+      font-size: 16px;
       margin-bottom: 30px;
-      height: 28px;
-      width: 185px;
+      width: 205px;
+      cursor: pointer;
     }
 
     .focus-container img {
@@ -379,6 +389,7 @@ form button {
   transition: background-color 0.3s ease;
   height: 62px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 form button:hover {
@@ -435,5 +446,6 @@ footer {
     .footer-menu a {
       text-decoration: none;
       color: inherit;
+      cursor: pointer;
     }
 
