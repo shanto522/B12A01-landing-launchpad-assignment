@@ -73,7 +73,7 @@ section div p{
     height: 60px;
     width: 470px;
     font-size: 24px;
-    color: #252432;
+    color: inherit;
 }
 section div button{
     height: 48px;
@@ -203,9 +203,8 @@ section div button{
 
 .text {
       font-size: 18px;
-      color: #444;
       margin-bottom: 20px;
-      
+      color: inherit;
 }
 
 .reviewer {
@@ -286,12 +285,10 @@ section div button{
 
     .container {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
-  padding: 100px;
   max-width: 1140px;
   height: 632px;
-  margin: 0 auto;
+  margin: 95px auto 0;
   gap: 115px;
 }
 
@@ -308,6 +305,8 @@ section div button{
 
 .right {
   flex: 1;
+  height: 490px;
+  width: 497px;
 }
 
 form {
@@ -353,3 +352,53 @@ form button {
 form button:hover {
   background-color: #4338ca;
 }
+
+footer {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1440px;
+      height: 428px;
+      margin: 70px auto 0;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .footer-container {
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-size: 100px;
+      font-weight: bold;
+      color: #4A3CFF;
+      margin-bottom: 20px;
+      height: 121px;
+      width: 291px;
+      margin: 0 auto;
+    }
+
+    .footer-text {
+      font-size: 14px;
+      color: #8A8BA3;
+      margin-bottom: 40px;
+      line-height: 1.6;
+      height: 48px;
+      width: 531px;
+      font-size: 18px;
+    }
+
+    .footer-menu {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      font-size: 14px;
+      color: #8A8BA3;
+      font-size: 18px;
+    }
+
+    .footer-menu a {
+      text-decoration: none;
+      color: inherit;
+    }
+
